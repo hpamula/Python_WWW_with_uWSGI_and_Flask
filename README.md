@@ -15,7 +15,7 @@ In 'Configuration':
 - under 'virtualenv directory' choose '/www/.venv/'
 
 In 'Advanced configuration':
-- under 'uWSGI additional settings' write 'hot-restart = true'
+- under 'uWSGI additional settings' write 'py-autoreload = 1'
 
 Click 'Submit' in bottom right corner.<br>
 In https://admin.alwaysdata.com/ssh/ choose 'Modify' option.<br>
