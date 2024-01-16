@@ -36,7 +36,7 @@ Then execute first commands to be able to run setup.sh and then run it<br>
 chmod +x setup.sh
 ./setup.sh
 ```
-Now by going to https://<username>.alwaysdata.net/ you should see basic site with default text:<br>
+Now by going to https://<username/>.alwaysdata.net/ you should see basic site with default text:<br>
 Hello uWSGI from python version:<br>
 3.12.0 (main, Dec 5 2023, 07:53:35) [GCC 8.3.0]
 
