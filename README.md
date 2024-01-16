@@ -2,10 +2,17 @@
 
 ### How to run using alwaysdata.com<br>
 It's possible using 100MB free plan<br>
-
+```bash
+chmod +x setup.sh<br>
+./setup.sh<br>
+```
 In https://admin.alwaysdata.com/site choose 'Modify' option at your new site<br>
 In 'Addresses' tab:<br>
 - type '<username>.alwaysdata.net'
+```bash
+chmod +x setup.sh<br>
+./setup.sh<br>
+```
 In 'Configuration':<br>
 - under 'Type' choose 'Python WSGI'
 - under 'Application path' choose '/www/wsgi.py'
