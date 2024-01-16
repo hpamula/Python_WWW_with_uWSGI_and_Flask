@@ -5,14 +5,14 @@ It's possible using 100MB free plan<br>
 
 In https://admin.alwaysdata.com/site choose 'Modify' option at your new site<br>
 In 'Addresses' tab:<br>
-- type '<username>.alwaysdata.net'<br>
+- type '<username>.alwaysdata.net'
 In 'Configuration':<br>
-- under 'Type' choose 'Python WSGI'<br>
-- under 'Application path' choose '/www/wsgi.py'<br>
-- under 'Working directory' choose '/www/'<br>
-- under 'virtualenv directory' choose '/www/.venv/'<br>
+- under 'Type' choose 'Python WSGI'
+- under 'Application path' choose '/www/wsgi.py'
+- under 'Working directory' choose '/www/'
+- under 'virtualenv directory' choose '/www/.venv/'
 In 'Advanced configuration':<br>
-- under 'uWSGI additional settings' write 'hot-restart = true'<br>
+- under 'uWSGI additional settings' write 'hot-restart = true'
 Click 'Submit' in bottom right corner.<br>
 <br>
 In https://admin.alwaysdata.com/ssh/ choose 'Modify' option<br>
