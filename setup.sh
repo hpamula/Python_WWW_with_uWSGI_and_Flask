@@ -21,8 +21,8 @@ EOF
 python -m venv .venv
 . .venv/bin/activate
 pip install Flask
-pip install pyuwsgi
+# pip install pyuwsgi
+echo "'pip install pyuwsgi' was not executed since on alwaysdata it is preinstalled."
 cd ..
-echo "Check if don't need to install these; maybe they're preinstalled:"
 echo "Disk usage after setup:"
 du -sh *
