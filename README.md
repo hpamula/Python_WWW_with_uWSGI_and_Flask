@@ -18,7 +18,7 @@ In 'Advanced configuration':
 - under 'uWSGI additional settings' write 'py-autoreload = 1'
 
 Keep in mind that it auto-reloads changes in all files only when any .py file changed,
-so it's not ideal, but I didn't managed 'hot-restart = true' to work.
+so it's not ideal, but I didn't manage 'hot-restart = true' to work.
 It's good enough for now.
 
 Click 'Submit' in bottom right corner.<br>
