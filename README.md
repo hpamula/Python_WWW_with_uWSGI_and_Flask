@@ -22,7 +22,6 @@ Click 'Submit' in bottom right corner.<br>
 chmod +x setup.sh<br>
 ./setup.sh<br>
 ```
-<br>
 ```bash
 chmod +x setup.sh<br>
 ./setup.sh<br>
