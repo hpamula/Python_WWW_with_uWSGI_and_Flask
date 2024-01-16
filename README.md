@@ -1,6 +1,6 @@
-# Make synamic WWW site with Python using uWSGI and Flask<br>
+# Make dynamic WWW site with Python using uWSGI and Flask
 
-### How to run using alwaysdata.com<br>
+### How to run using alwaysdata.com
 It's possible using 100MB free plan<br>
 
 In https://admin.alwaysdata.com/site choose 'Modify' option at your new site
