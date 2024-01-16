@@ -29,8 +29,8 @@ echo -e "echo \"Disk usage at the beginning:\"\ndu -sh *\nrm -r www\necho \"Disk
 ```
 Then execute first commands to be able to run setup.sh and then run it<br>
 ```bash
-chmod +x setup.sh<br>
-./setup.sh<br>
+chmod +x setup.sh
+./setup.sh
 ```
 Now by going to https://<username>.alwaysdata.net/ you should see basic site with default text:<br>
 Hello uWSGI from python version:<br>
