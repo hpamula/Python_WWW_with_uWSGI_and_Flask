@@ -20,7 +20,7 @@ and under 'Password' choose some password.<br>
 Enable 'Enable password-based login' checkbox.<br>
 Click 'Submit' in bottom right corner.<br>
 Go back to https://admin.alwaysdata.com/ssh/ and click 'on the Web'<br>
-Log in using username (which is displayed in link as https://ssh-<username>.alwaysdata.net/)<br>
+Log in using username (which is displayed in link as https://ssh-\<username\>.alwaysdata.net/)<br>
 and newly created password.<br>
 Now you need to copy setup.sh file into ~ directory.<br>
 You can do this using FileZill'a FTP, SSH or WebDAV<br>
