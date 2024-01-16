@@ -11,16 +11,16 @@ In 'Configuration':<br>
 - under 'Application path' choose '/www/wsgi.py'
 - under 'Working directory' choose '/www/'
 - under 'virtualenv directory' choose '/www/.venv/'
-```bash
-chmod +x setup.sh<br>
-./setup.sh<br>
-```
 In 'Advanced configuration':<br>
 ```bash
 chmod +x setup.sh<br>
 ./setup.sh<br>
 ```
 - under 'uWSGI additional settings' write 'hot-restart = true'
+```bash
+chmod +x setup.sh<br>
+./setup.sh<br>
+```
 Click 'Submit' in bottom right corner.<br>
 <br>
 In https://admin.alwaysdata.com/ssh/ choose 'Modify' option<br>
