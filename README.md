@@ -23,6 +23,10 @@ chmod +x setup.sh<br>
 ./setup.sh<br>
 ```
 <br>
+```bash
+chmod +x setup.sh<br>
+./setup.sh<br>
+```
 In https://admin.alwaysdata.com/ssh/ choose 'Modify' option<br>
 and under 'Password' choose some password.<br>
 Enable 'Enable password-based login' checkbox.<br>
