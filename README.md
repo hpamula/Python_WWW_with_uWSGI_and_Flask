@@ -1,36 +1,36 @@
-# Browser site to learn words from list
-
-### How to run using alwaysdata.com
-It's possible using 100MB free plan
-
-In https://admin.alwaysdata.com/site choose 'Modify' option at your new site
-In 'Configuration':
-    under 'Type' choose 'Python WSGI'
-    under 'Application path' choose '/www/wsgi.py'
-    under 'Working directory' choose '/www/'
-    under 'virtualenv directory' choose '/www/.venv/'
-In 'Advanced configuration':
-    under 'uWSGI additional settings' write 'hot-restart = true'
-Click 'Submit' in bottom right corner.
-
-In https://admin.alwaysdata.com/ssh/ choose 'Modify' option
-and under 'Password' choose some password.
-Click 'Submit' in bottom right corner.
-Go back to https://admin.alwaysdata.com/ssh/ and click 'on the Web'
-Log in using username (which is displayed in link as https://ssh-<username>.alwaysdata.net/)
-and newly created password.
-Now you need to copy setup.sh file into ~ directory.
-You can do this using FileZill'a FTP, SSH or WebDAV
-but probably to easiest way is to just paste file with its content by typing:
+# Browser site to learn words from list<br>
+<br>
+### How to run using alwaysdata.com<br>
+It's possible using 100MB free plan<br>
+<br>
+In https://admin.alwaysdata.com/site choose 'Modify' option at your new site<br>
+In 'Configuration':<br>
+    under 'Type' choose 'Python WSGI'<br>
+    under 'Application path' choose '/www/wsgi.py'<br>
+    under 'Working directory' choose '/www/'<br>
+    under 'virtualenv directory' choose '/www/.venv/'<br>
+In 'Advanced configuration':<br>
+    under 'uWSGI additional settings' write 'hot-restart = true'<br>
+Click 'Submit' in bottom right corner.<br>
+<br>
+In https://admin.alwaysdata.com/ssh/ choose 'Modify' option<br>
+and under 'Password' choose some password.<br>
+Click 'Submit' in bottom right corner.<br>
+Go back to https://admin.alwaysdata.com/ssh/ and click 'on the Web'<br>
+Log in using username (which is displayed in link as https://ssh-<username>.alwaysdata.net/)<br>
+and newly created password.<br>
+Now you need to copy setup.sh file into ~ directory.<br>
+You can do this using FileZill'a FTP, SSH or WebDAV<br>
+but probably to easiest way is to just paste file with its content by typing:<br>
 
 echo -e "echo \"Disk usage at the beginning:\"\ndu -sh *\nrm -r www\necho \"Disk usage after rm -r www:\"\ndu -sh *\nmkdir www\ncd www\ncat <<EOF >wsgi.py\nfrom flask_app import app as application\nEOF\ncat <<EOF >flask_app.py\nfrom flask import Flask\nfrom sys import version\n\napp = Flask(__name__)\n\n@app.route(\"/\")\ndef flask_app():\n    return \"Hello uWSGI from python version: <br>\" + version\nEOF\npython -m venv .venv\n. .venv/bin/activate\npip install Flask\npip install pyuwsgi\ncd ..\necho \"Check if don't need to install these; maybe they're preinstalled:\"\necho \"Disk usage after setup:\"\ndu -sh *" > setup.sh
 
-Then execute this commands to be able to run setup.sh and to run it
-chmod +x setup.sh
-./setup.sh
+Then execute this commands to be able to run setup.sh and to run it<br>
+chmod +x setup.sh<br>
+./setup.sh<br>
 
-Now by going to https://<username>.alwaysdata.net/ you should see basic site with default text:
-Hello uWSGI from python version:
+Now by going to https://<username>.alwaysdata.net/ you should see basic site with default text:<br>
+Hello uWSGI from python version:<br>
 3.12.0 (main, Dec 5 2023, 07:53:35) [GCC 8.3.0]
 
 If everything works, you can update files inside www directory.
