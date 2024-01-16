@@ -1,4 +1,4 @@
-# Browser site to learn words from list<br>
+# Make synamic WWW site with Python using uWSGI and Flask<br>
 
 ### How to run using alwaysdata.com<br>
 It's possible using 100MB free plan<br>
