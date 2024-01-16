@@ -11,14 +11,18 @@ In 'Configuration':<br>
 - under 'Application path' choose '/www/wsgi.py'
 - under 'Working directory' choose '/www/'
 - under 'virtualenv directory' choose '/www/.venv/'
-In 'Advanced configuration':<br>
-- under 'uWSGI additional settings' write 'hot-restart = true'
-Click 'Submit' in bottom right corner.<br>
-<br>
 ```bash
 chmod +x setup.sh<br>
 ./setup.sh<br>
 ```
+In 'Advanced configuration':<br>
+```bash
+chmod +x setup.sh<br>
+./setup.sh<br>
+```
+- under 'uWSGI additional settings' write 'hot-restart = true'
+Click 'Submit' in bottom right corner.<br>
+<br>
 In https://admin.alwaysdata.com/ssh/ choose 'Modify' option<br>
 and under 'Password' choose some password.<br>
 Enable 'Enable password-based login' checkbox.<br>
