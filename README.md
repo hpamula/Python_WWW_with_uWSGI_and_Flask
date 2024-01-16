@@ -18,7 +18,7 @@ In 'Advanced configuration':
 - under 'uWSGI additional settings' write 'hot-restart = true'
 
 Click 'Submit' in bottom right corner.<br>
-In https://admin.alwaysdata.com/ssh/ choose 'Modify' option<br>
+In https://admin.alwaysdata.com/ssh/ choose 'Modify' option.<br>
 and under 'Password' choose some password.<br>
 Enable 'Enable password-based login' checkbox.<br>
 Click 'Submit' in bottom right corner.<br>
