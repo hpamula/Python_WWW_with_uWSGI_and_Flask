@@ -4,6 +4,8 @@
 It's possible using 100MB free plan<br>
 
 In https://admin.alwaysdata.com/site choose 'Modify' option at your new site<br>
+In 'Addresses' tab:<br>
+    type '<username>.alwaysdata.net'<br>
 In 'Configuration':<br>
     under 'Type' choose 'Python WSGI'<br>
     under 'Application path' choose '/www/wsgi.py'<br>
@@ -15,6 +17,7 @@ Click 'Submit' in bottom right corner.<br>
 <br>
 In https://admin.alwaysdata.com/ssh/ choose 'Modify' option<br>
 and under 'Password' choose some password.<br>
+Enable 'Enable password-based login' checkbox.<br>
 Click 'Submit' in bottom right corner.<br>
 Go back to https://admin.alwaysdata.com/ssh/ and click 'on the Web'<br>
 Log in using username (which is displayed in link as https://ssh-<username>.alwaysdata.net/)<br>
