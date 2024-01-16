@@ -1,8 +1,8 @@
 # Browser site to learn words from list<br>
-<br>
+
 ### How to run using alwaysdata.com<br>
 It's possible using 100MB free plan<br>
-<br>
+
 In https://admin.alwaysdata.com/site choose 'Modify' option at your new site<br>
 In 'Configuration':<br>
     under 'Type' choose 'Python WSGI'<br>
