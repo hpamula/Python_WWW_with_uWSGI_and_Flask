@@ -6,7 +6,7 @@ It's possible using 100MB free plan<br>
 In https://admin.alwaysdata.com/site choose 'Modify' option at your new site
 
 In 'Addresses' tab:
-- type '<username>.alwaysdata.net'
+- type '<username\>.alwaysdata.net'
 
 In 'Configuration':
 - under 'Type' choose 'Python WSGI'
